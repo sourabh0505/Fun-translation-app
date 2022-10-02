@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dancing+Script:wght@600&family=Fira+Sans:wght@600&family=Indie+Flower&family=Mukta&family=Pacifico&family=Poppins:wght@600&family=Quicksand:wght@500&family=The+Nautigal:wght@700&display=swap');
+
+:root{
+    --primary-color: #c084fc;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--primary-color);
+}
+.title{
+    font-size: 2.5rem;
+    text-align: center;
+}
+#input-textarea{
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+}
+#translate-btn{
+    display: block;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+#output-textarea{
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+
+}
+.footer{
+    text-align: center;
+    margin-top: 5rem;
+}
+.footer-heading{
+    display: block;
+}
+.in-about{
+    display: block;
+    padding: 0rem 1rem;
+    text-align: justify;
+}
