@@ -2,7 +2,7 @@ var Translatebtn = document.querySelector("#translate-btn");
 var Inputtextarea = document.querySelector("#input-textarea");
 var Outputtextarea = document.querySelector("#output-textarea");
 
-var serverURL = "https://api.funtranslations.com/translate/pig-latin.json"
+var serverURL = "https://api.funtranslations.com/translate/yoda.json"
 
 function getTranslationURL(input) {
     return serverURL + "?" + "text=" + input;
